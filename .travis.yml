@@ -1,6 +1,5 @@
 language: ruby
 dist: trusty
-sudo: false
 cache: bundler
 before_script:
   - cp .example.env-travis .env
